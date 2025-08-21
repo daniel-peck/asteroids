@@ -6,6 +6,11 @@ from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
 
+"""
+From the project repo, use the command below to activate the virtual environment
+source .venv/bin/activate 
+"""
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
